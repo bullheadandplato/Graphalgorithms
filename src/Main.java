@@ -105,6 +105,7 @@ public class Main extends Application{
         for (int j = 1; j < data[google].length; j++) {
             tmp[j-1]=data[google][j];
         }
+
         parent=data[google][0];
         drawer.fillBox(parent,tmp);
     }
